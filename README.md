@@ -3,7 +3,7 @@
 ## General info
 This project took around 1 hour and 30 minutes to be completed.
 
-All the json files used are included in the files/ directory and it includes the test cases and their output.
+All the json files used are included in the files/ directory and they include the test cases and their outputs.
 
 ## Instructions
 To run the program from terminal the following command needs to be executed:
