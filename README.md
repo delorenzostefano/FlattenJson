@@ -13,6 +13,7 @@ To run the program from terminal the following command needs to be executed:
 The files of input and output are **required**.
 
 **input_file_dir**: is the directory of the file to input
+
 **out_file_dir**: is the directory of the file to output
 
 It is possible to use the already made files contained in the **files** directory.
