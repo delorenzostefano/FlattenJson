@@ -1,7 +1,7 @@
 # Flatten Json file
 
 ## General info
-This project took around 1 hour and 30 minutes to be completed.
+This project took around 2 hours to be completed.
 
 All the json files used are included in the files/ directory and they include the test cases and their outputs.
 
