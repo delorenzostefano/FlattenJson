@@ -40,7 +40,6 @@ def run(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Flatten a json file")
-    parser.add_argument("-f", "--flatten", help="Flattening json file", action="store_true")
     parser.add_argument("-in", help="json input file", dest="input", type=str, required=True)
     parser.add_argument("-out", help="json output file", dest="output", type=str, required=True)
     parser.set_defaults(func=run)
