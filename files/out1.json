@@ -1,0 +1,9 @@
+{
+    "a": 1,
+    "b": true,
+    "c.d": 3,
+    "c.e": "test",
+    "c.f.g": "expert",
+    "c.f.h": 4,
+    "c.f.i": false
+}
