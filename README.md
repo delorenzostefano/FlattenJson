@@ -1,11 +1,11 @@
-#Flatten Json file
+# Flatten Json file
 
-##General info
+## General info
 This project took around 1 hour and 30 minutes to be completed.
 
 All the json files used are included in the files/ directory and include the test cases and their output.
 
-##Instructions
+## Instructions
 To run the program from terminal the following command needs to be executed:
 
 > main.py -in input_file_dir -out out_file_dir
