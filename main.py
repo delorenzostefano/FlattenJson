@@ -24,7 +24,7 @@ def run(args):
             # IF THE VALUE EXISTS IN THE DICT
             if isinstance(v, dict):
                 # EXTENDING THE LIST WITH RECURSION
-                objects.extend(flatten(v, ne, sep).items())
+                objects.extend(flatten(v, ne, sep))
             else:
                 # OTHERWISE APPEND TO THE LIST OF TUPLES
                 objects.append((ne, v))
@@ -33,7 +33,7 @@ def run(args):
             json.dump(dict(objects), fo, indent=4)
 
         fo.close()
-        return dict(objects)
+        return objects
 
     return flatten(db)
 
